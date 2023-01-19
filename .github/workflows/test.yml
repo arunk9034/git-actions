@@ -1,8 +1,8 @@
 name: My First Github Action
 on: [push]
 jobs:
-  print-hello-world:
+  build-app:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hey brow!"
-      - run: echo "Welcome to the first github action"
+      - uses: actions/checkout@v2
+      - run: tree
