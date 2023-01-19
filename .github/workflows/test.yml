@@ -1,3 +1,8 @@
-asdklfjlajdf
-asdfjlaksdjfas
-dfasdkfjlasdf
+name: My First Github Action
+on: [push]
+job:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "Hey brow!"
+      -run2: echo "Welcome to the first github action"
