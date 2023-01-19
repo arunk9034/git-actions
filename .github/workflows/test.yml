@@ -4,5 +4,5 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "Hey brow!"
-      -run: echo "Welcome to the first github action"
+      - run: echo "Hey brow!"
+      - run: echo "Welcome to the first github action"
