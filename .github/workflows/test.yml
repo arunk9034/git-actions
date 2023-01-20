@@ -11,6 +11,6 @@ jobs:
       - name: Install node_modules
         run: npm install
       - name: Build the Project
-        run: npm run dev
-      - name: Start Project
-        run: npm run start  
+        run: npm run build
+      - name: Final Message
+        run: echo "Project Successfully Build!"  
