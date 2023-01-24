@@ -29,4 +29,4 @@ jobs:
     env:
       MY_JOB_OUTPUT: ${{ needs.buildApp.outputs.text }}
     steps:
-      - run: echo "YOLO"
+      - run: echo $MY_JOB_OUTPUT
