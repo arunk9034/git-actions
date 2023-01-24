@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vc --production"
+    "deploy": "vc --prod"
   },
   "devDependencies": {
     "vercel": "^28.13.1",
