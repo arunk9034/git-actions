@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vc --prod --token=xA1L55XJFkGkgvDJgjy3d9S0"
+    "deploy": "vc --prod --token=$VERCEL_TOKEN"
   },
   "devDependencies": {
     "vercel": "^28.13.1",
